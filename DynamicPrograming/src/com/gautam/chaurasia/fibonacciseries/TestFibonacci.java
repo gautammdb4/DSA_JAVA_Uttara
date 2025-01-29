@@ -5,7 +5,7 @@ public class TestFibonacci {
 	public static void main(String[] args) {
 		
 		FibonacciSeries f = new FibonacciSeries(10);
-		int n=f.dpFib(10);
+		int n=f.dpFib(5);
 		
 		System.out.println(n);
 //		for (int i = 0; i < 10; i++) {
